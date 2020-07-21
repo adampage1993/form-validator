@@ -4,19 +4,18 @@
 }
 
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    background: #f9fafb;
+    background-color: #f9fafb;
     font-family: 'Open Sans', sans-serif;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     min-height: 100vh;
-    margin: 0;
 }
 
 .container {
@@ -33,7 +32,6 @@ h2 {
 
 .form {
     padding: 30px 40px;
-
 }
 
 .form-control {
@@ -58,7 +56,7 @@ h2 {
 }
 
 .form-control input:focus {
-    outline: none;
+    outline: 0;
     border-color: #777;
 }
 
@@ -71,7 +69,7 @@ h2 {
 }
 
 .form-control small {
-    border-color: var(--error-color);
+    color: var(--error-color);
     position: absolute;
     bottom: 0;
     left: 0;
